@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface MyChecksList : NSObject
+@property(nonatomic,strong) NSMutableArray *productImageArray;
+@property(nonatomic,strong) NSMutableArray *productNameArray;
+@property(nonatomic,strong) NSMutableArray *productPriceArray;
+@property(nonatomic,strong) NSMutableArray *productDateArray;
+@property(nonatomic,strong) NSMutableArray *productStatusArray;
+@property(nonatomic,strong) NSMutableArray *productStatusImageArray;
+
+
 
 @end

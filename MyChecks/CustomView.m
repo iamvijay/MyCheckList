@@ -105,13 +105,28 @@
 
 -(CGRect)buttonContainerViewInitialFrame:(UIView*)_buttonContainerView height:(int)screenHeight width:(int)screenWidth {
 
-    CGRect frame = CGRectMake((screenWidth/3)-20, screenHeight+_buttonContainerView.frame.size.height, _buttonContainerView.frame.size.width, _buttonContainerView.frame.size.height);
+    int xAxis = 0;
+    
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+        xAxis = (screenWidth/3)+40;
+    } else {
+        xAxis = (screenWidth/3)-20;
+    }
+
+    CGRect frame = CGRectMake(xAxis, screenHeight+_buttonContainerView.frame.size.height, _buttonContainerView.frame.size.width, _buttonContainerView.frame.size.height);
     return frame;
 }
 
 -(CGRect)buttonContainerViewSetFrame:(UIView*)_buttonContainerView height:(int)screenHeight width:(int)screenWidth{
     
-    CGRect frame = CGRectMake((screenWidth/3)-20, screenHeight-_buttonContainerView.frame.size.height, _buttonContainerView.frame.size.width, _buttonContainerView.frame.size.height);
+    int xAxis = 0;
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+        xAxis = (screenWidth/3+40);
+    } else {
+        xAxis = (screenWidth/3)-20;
+    }
+    
+    CGRect frame = CGRectMake(xAxis, screenHeight-_buttonContainerView.frame.size.height, _buttonContainerView.frame.size.width, _buttonContainerView.frame.size.height);
     return frame;
     
 }

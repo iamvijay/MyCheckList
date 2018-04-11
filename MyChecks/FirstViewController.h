@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyChecksList.h"
+#import "CustomView.h"
 
 @interface FirstViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *myChecksTableViewController;
+@property (strong, nonatomic) IBOutlet UIView *myCheckHeaderView;
+@property (strong, nonatomic) IBOutlet UIView *snapChatHeaderView;
+- (IBAction)goBack:(id)sender;
 
-
+@property (strong, nonatomic) IBOutlet UIView *buttonContainerView;
+@property (strong, nonatomic) IBOutlet UITableView *myCheckDetailTableView;
+@property (strong, nonatomic) IBOutlet UIView *detailCheckListView;
 @end
 

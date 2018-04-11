@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B158C3A8207CD2E400A7B2F7 /* MyChecksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B158C3A7207CD2E400A7B2F7 /* MyChecksTableViewCell.xib */; };
+		B158C3AB207CDE7000A7B2F7 /* myChecksTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C3AA207CDE7000A7B2F7 /* myChecksTableViewCell.m */; };
+		B158C3B2207CE82500A7B2F7 /* LOccitane_Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B158C3AD207CE82400A7B2F7 /* LOccitane_Logo.jpg */; };
+		B158C3B4207CE82500A7B2F7 /* Philip_Plien_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B158C3AF207CE82500A7B2F7 /* Philip_Plien_logo.jpg */; };
+		B158C3B5207CE82500A7B2F7 /* Hermes-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3B0207CE82500A7B2F7 /* Hermes-logo.png */; };
+		B158C3B6207CE82500A7B2F7 /* Ray-Ban-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B158C3B1207CE82500A7B2F7 /* Ray-Ban-logo.jpg */; };
+		B158C3BA207D094C00A7B2F7 /* MyChecksList.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C3B9207D094C00A7B2F7 /* MyChecksList.m */; };
+		B158C3BC207D0D9100A7B2F7 /* kenzo-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B158C3BB207D0D9100A7B2F7 /* kenzo-logo.jpg */; };
+		B158C3C2207D16D900A7B2F7 /* Check_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3BD207D16D800A7B2F7 /* Check_alert.png */; };
+		B158C3C3207D16D900A7B2F7 /* Danger_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3BE207D16D900A7B2F7 /* Danger_alert.png */; };
+		B158C3C4207D16D900A7B2F7 /* Stop_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3BF207D16D900A7B2F7 /* Stop_alert.png */; };
+		B158C3C5207D16D900A7B2F7 /* Tick_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3C0207D16D900A7B2F7 /* Tick_blue.png */; };
+		B158C3C6207D16D900A7B2F7 /* Tick_red.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3C1207D16D900A7B2F7 /* Tick_red.png */; };
+		B158C3C8207D269400A7B2F7 /* Back-Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3C7207D269400A7B2F7 /* Back-Arrow.png */; };
+		B158C3CA207D28E500A7B2F7 /* Upload.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3C9207D28E500A7B2F7 /* Upload.png */; };
+		B158C3CC207D2FBE00A7B2F7 /* notebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3CB207D2FBE00A7B2F7 /* notebook.png */; };
+		B158C3CF207DE3B100A7B2F7 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C3CE207DE3B100A7B2F7 /* CustomView.m */; };
+		B158C3D2207E061A00A7B2F7 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3D0207E061900A7B2F7 /* Message.png */; };
+		B158C3D3207E061A00A7B2F7 /* Gift.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3D1207E061900A7B2F7 /* Gift.png */; };
+		B158C3DA207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C3D8207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.m */; };
+		B158C3DB207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B158C3D9207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib */; };
+		B158C3E1207E4AB600A7B2F7 /* gift_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3DF207E4AB600A7B2F7 /* gift_selected.png */; };
+		B158C3E2207E4AB600A7B2F7 /* gift_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3E0207E4AB600A7B2F7 /* gift_unselected.png */; };
 		B1C3DC1F207C9AE200B6F0D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC1E207C9AE200B6F0D4 /* AppDelegate.m */; };
 		B1C3DC22207C9AE300B6F0D4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC21207C9AE300B6F0D4 /* FirstViewController.m */; };
 		B1C3DC25207C9AE300B6F0D4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC24207C9AE300B6F0D4 /* SecondViewController.m */; };
@@ -17,6 +40,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B158C3A7207CD2E400A7B2F7 /* MyChecksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyChecksTableViewCell.xib; sourceTree = "<group>"; };
+		B158C3A9207CDE7000A7B2F7 /* myChecksTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myChecksTableViewCell.h; sourceTree = "<group>"; };
+		B158C3AA207CDE7000A7B2F7 /* myChecksTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myChecksTableViewCell.m; sourceTree = "<group>"; };
+		B158C3AD207CE82400A7B2F7 /* LOccitane_Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LOccitane_Logo.jpg; sourceTree = "<group>"; };
+		B158C3AF207CE82500A7B2F7 /* Philip_Plien_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Philip_Plien_logo.jpg; sourceTree = "<group>"; };
+		B158C3B0207CE82500A7B2F7 /* Hermes-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hermes-logo.png"; sourceTree = "<group>"; };
+		B158C3B1207CE82500A7B2F7 /* Ray-Ban-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ray-Ban-logo.jpg"; sourceTree = "<group>"; };
+		B158C3B8207D094C00A7B2F7 /* MyChecksList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyChecksList.h; sourceTree = "<group>"; };
+		B158C3B9207D094C00A7B2F7 /* MyChecksList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyChecksList.m; sourceTree = "<group>"; };
+		B158C3BB207D0D9100A7B2F7 /* kenzo-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kenzo-logo.jpg"; sourceTree = "<group>"; };
+		B158C3BD207D16D800A7B2F7 /* Check_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check_alert.png; sourceTree = "<group>"; };
+		B158C3BE207D16D900A7B2F7 /* Danger_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Danger_alert.png; sourceTree = "<group>"; };
+		B158C3BF207D16D900A7B2F7 /* Stop_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop_alert.png; sourceTree = "<group>"; };
+		B158C3C0207D16D900A7B2F7 /* Tick_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick_blue.png; sourceTree = "<group>"; };
+		B158C3C1207D16D900A7B2F7 /* Tick_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick_red.png; sourceTree = "<group>"; };
+		B158C3C7207D269400A7B2F7 /* Back-Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-Arrow.png"; sourceTree = "<group>"; };
+		B158C3C9207D28E500A7B2F7 /* Upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upload.png; sourceTree = "<group>"; };
+		B158C3CB207D2FBE00A7B2F7 /* notebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notebook.png; sourceTree = "<group>"; };
+		B158C3CD207DE3B100A7B2F7 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		B158C3CE207DE3B100A7B2F7 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		B158C3D0207E061900A7B2F7 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Message.png; sourceTree = "<group>"; };
+		B158C3D1207E061900A7B2F7 /* Gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gift.png; sourceTree = "<group>"; };
+		B158C3D7207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCheckDetailTableViewCell.h; sourceTree = "<group>"; };
+		B158C3D8207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCheckDetailTableViewCell.m; sourceTree = "<group>"; };
+		B158C3D9207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCheckDetailTableViewCell.xib; sourceTree = "<group>"; };
+		B158C3DF207E4AB600A7B2F7 /* gift_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_selected.png; sourceTree = "<group>"; };
+		B158C3E0207E4AB600A7B2F7 /* gift_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_unselected.png; sourceTree = "<group>"; };
 		B1C3DC1A207C9AE200B6F0D4 /* MyChecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C3DC1D207C9AE200B6F0D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1C3DC1E207C9AE200B6F0D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +92,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B158C3AC207CE80400A7B2F7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B158C3DF207E4AB600A7B2F7 /* gift_selected.png */,
+				B158C3E0207E4AB600A7B2F7 /* gift_unselected.png */,
+				B158C3D1207E061900A7B2F7 /* Gift.png */,
+				B158C3D0207E061900A7B2F7 /* Message.png */,
+				B158C3CB207D2FBE00A7B2F7 /* notebook.png */,
+				B158C3C9207D28E500A7B2F7 /* Upload.png */,
+				B158C3C7207D269400A7B2F7 /* Back-Arrow.png */,
+				B158C3BD207D16D800A7B2F7 /* Check_alert.png */,
+				B158C3BE207D16D900A7B2F7 /* Danger_alert.png */,
+				B158C3BF207D16D900A7B2F7 /* Stop_alert.png */,
+				B158C3C0207D16D900A7B2F7 /* Tick_blue.png */,
+				B158C3C1207D16D900A7B2F7 /* Tick_red.png */,
+				B158C3BB207D0D9100A7B2F7 /* kenzo-logo.jpg */,
+				B158C3B0207CE82500A7B2F7 /* Hermes-logo.png */,
+				B158C3AD207CE82400A7B2F7 /* LOccitane_Logo.jpg */,
+				B158C3AF207CE82500A7B2F7 /* Philip_Plien_logo.jpg */,
+				B158C3B1207CE82500A7B2F7 /* Ray-Ban-logo.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B158C3B7207D093600A7B2F7 /* Data Class */ = {
+			isa = PBXGroup;
+			children = (
+				B158C3B8207D094C00A7B2F7 /* MyChecksList.h */,
+				B158C3B9207D094C00A7B2F7 /* MyChecksList.m */,
+			);
+			path = "Data Class";
+			sourceTree = "<group>";
+		};
+		B158C3E3207E546000A7B2F7 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B158C3D7207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.h */,
+				B158C3D8207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.m */,
+				B158C3D9207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib */,
+				B158C3A7207CD2E400A7B2F7 /* MyChecksTableViewCell.xib */,
+				B158C3A9207CDE7000A7B2F7 /* myChecksTableViewCell.h */,
+				B158C3AA207CDE7000A7B2F7 /* myChecksTableViewCell.m */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		B1C3DC11207C9AE200B6F0D4 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +157,11 @@
 		B1C3DC1C207C9AE200B6F0D4 /* MyChecks */ = {
 			isa = PBXGroup;
 			children = (
+				B158C3B7207D093600A7B2F7 /* Data Class */,
+				B158C3AC207CE80400A7B2F7 /* Assets */,
+				B158C3E3207E546000A7B2F7 /* Custom Cell */,
+				B158C3CD207DE3B100A7B2F7 /* CustomView.h */,
+				B158C3CE207DE3B100A7B2F7 /* CustomView.m */,
 				B1C3DC1D207C9AE200B6F0D4 /* AppDelegate.h */,
 				B1C3DC1E207C9AE200B6F0D4 /* AppDelegate.m */,
 				B1C3DC20207C9AE300B6F0D4 /* FirstViewController.h */,
@@ -102,7 +203,7 @@
 		B1C3DC12207C9AE200B6F0D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = sample;
 				TargetAttributes = {
 					B1C3DC19207C9AE200B6F0D4 = {
@@ -134,9 +235,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B158C3CC207D2FBE00A7B2F7 /* notebook.png in Resources */,
+				B158C3A8207CD2E400A7B2F7 /* MyChecksTableViewCell.xib in Resources */,
+				B158C3B6207CE82500A7B2F7 /* Ray-Ban-logo.jpg in Resources */,
+				B158C3E2207E4AB600A7B2F7 /* gift_unselected.png in Resources */,
+				B158C3CA207D28E500A7B2F7 /* Upload.png in Resources */,
 				B1C3DC2D207C9AE300B6F0D4 /* LaunchScreen.storyboard in Resources */,
+				B158C3DB207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib in Resources */,
+				B158C3B4207CE82500A7B2F7 /* Philip_Plien_logo.jpg in Resources */,
+				B158C3B5207CE82500A7B2F7 /* Hermes-logo.png in Resources */,
+				B158C3C2207D16D900A7B2F7 /* Check_alert.png in Resources */,
+				B158C3C4207D16D900A7B2F7 /* Stop_alert.png in Resources */,
+				B158C3C3207D16D900A7B2F7 /* Danger_alert.png in Resources */,
+				B158C3D3207E061A00A7B2F7 /* Gift.png in Resources */,
+				B158C3C5207D16D900A7B2F7 /* Tick_blue.png in Resources */,
+				B158C3E1207E4AB600A7B2F7 /* gift_selected.png in Resources */,
 				B1C3DC2A207C9AE300B6F0D4 /* Assets.xcassets in Resources */,
+				B158C3C6207D16D900A7B2F7 /* Tick_red.png in Resources */,
+				B158C3B2207CE82500A7B2F7 /* LOccitane_Logo.jpg in Resources */,
 				B1C3DC28207C9AE300B6F0D4 /* Main.storyboard in Resources */,
+				B158C3C8207D269400A7B2F7 /* Back-Arrow.png in Resources */,
+				B158C3BC207D0D9100A7B2F7 /* kenzo-logo.jpg in Resources */,
+				B158C3D2207E061A00A7B2F7 /* Message.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C3DC25207C9AE300B6F0D4 /* SecondViewController.m in Sources */,
+				B158C3DA207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.m in Sources */,
 				B1C3DC1F207C9AE200B6F0D4 /* AppDelegate.m in Sources */,
+				B158C3BA207D094C00A7B2F7 /* MyChecksList.m in Sources */,
+				B158C3AB207CDE7000A7B2F7 /* myChecksTableViewCell.m in Sources */,
 				B1C3DC30207C9AE300B6F0D4 /* main.m in Sources */,
+				B158C3CF207DE3B100A7B2F7 /* CustomView.m in Sources */,
 				B1C3DC22207C9AE300B6F0D4 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +314,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -197,6 +322,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -245,6 +371,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -252,6 +379,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -285,7 +413,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyChecks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vijay.MyChecks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,7 +428,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyChecks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vijay.MyChecks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
