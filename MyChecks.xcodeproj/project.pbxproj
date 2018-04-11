@@ -30,8 +30,8 @@
 		B158C3DB207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B158C3D9207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib */; };
 		B158C3E1207E4AB600A7B2F7 /* gift_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3DF207E4AB600A7B2F7 /* gift_selected.png */; };
 		B158C3E2207E4AB600A7B2F7 /* gift_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3E0207E4AB600A7B2F7 /* gift_unselected.png */; };
-		B158C3E5207E5CD300A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.43.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3E4207E5CD300A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.43.png */; };
-		B158C3E7207E5CE000A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.50.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3E6207E5CDF00A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.50.png */; };
+		B158C3EA207E5D4D00A7B2F7 /* screen-shot-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3E8207E5D4D00A7B2F7 /* screen-shot-1.png */; };
+		B158C3EB207E5D4D00A7B2F7 /* screen-shot-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B158C3E9207E5D4D00A7B2F7 /* screen-shot-2.png */; };
 		B1C3DC1F207C9AE200B6F0D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC1E207C9AE200B6F0D4 /* AppDelegate.m */; };
 		B1C3DC22207C9AE300B6F0D4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC21207C9AE300B6F0D4 /* FirstViewController.m */; };
 		B1C3DC25207C9AE300B6F0D4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3DC24207C9AE300B6F0D4 /* SecondViewController.m */; };
@@ -69,8 +69,8 @@
 		B158C3D9207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCheckDetailTableViewCell.xib; sourceTree = "<group>"; };
 		B158C3DF207E4AB600A7B2F7 /* gift_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_selected.png; sourceTree = "<group>"; };
 		B158C3E0207E4AB600A7B2F7 /* gift_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_unselected.png; sourceTree = "<group>"; };
-		B158C3E4207E5CD300A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.43.png"; sourceTree = "<group>"; };
-		B158C3E6207E5CDF00A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.50.png"; sourceTree = "<group>"; };
+		B158C3E8207E5D4D00A7B2F7 /* screen-shot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-shot-1.png"; sourceTree = "<group>"; };
+		B158C3E9207E5D4D00A7B2F7 /* screen-shot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-shot-2.png"; sourceTree = "<group>"; };
 		B1C3DC1A207C9AE200B6F0D4 /* MyChecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C3DC1D207C9AE200B6F0D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1C3DC1E207C9AE200B6F0D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,8 +145,8 @@
 		B1C3DC11207C9AE200B6F0D4 = {
 			isa = PBXGroup;
 			children = (
-				B158C3E6207E5CDF00A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.50.png */,
-				B158C3E4207E5CD300A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.43.png */,
+				B158C3E8207E5D4D00A7B2F7 /* screen-shot-1.png */,
+				B158C3E9207E5D4D00A7B2F7 /* screen-shot-2.png */,
 				B1C3DC1C207C9AE200B6F0D4 /* MyChecks */,
 				B1C3DC1B207C9AE200B6F0D4 /* Products */,
 			);
@@ -247,19 +247,19 @@
 				B158C3E2207E4AB600A7B2F7 /* gift_unselected.png in Resources */,
 				B158C3CA207D28E500A7B2F7 /* Upload.png in Resources */,
 				B1C3DC2D207C9AE300B6F0D4 /* LaunchScreen.storyboard in Resources */,
+				B158C3EB207E5D4D00A7B2F7 /* screen-shot-2.png in Resources */,
 				B158C3DB207E1C4300A7B2F7 /* MyCheckDetailTableViewCell.xib in Resources */,
 				B158C3B4207CE82500A7B2F7 /* Philip_Plien_logo.jpg in Resources */,
 				B158C3B5207CE82500A7B2F7 /* Hermes-logo.png in Resources */,
 				B158C3C2207D16D900A7B2F7 /* Check_alert.png in Resources */,
 				B158C3C4207D16D900A7B2F7 /* Stop_alert.png in Resources */,
+				B158C3EA207E5D4D00A7B2F7 /* screen-shot-1.png in Resources */,
 				B158C3C3207D16D900A7B2F7 /* Danger_alert.png in Resources */,
 				B158C3D3207E061A00A7B2F7 /* Gift.png in Resources */,
 				B158C3C5207D16D900A7B2F7 /* Tick_blue.png in Resources */,
-				B158C3E5207E5CD300A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.43.png in Resources */,
 				B158C3E1207E4AB600A7B2F7 /* gift_selected.png in Resources */,
 				B1C3DC2A207C9AE300B6F0D4 /* Assets.xcassets in Resources */,
 				B158C3C6207D16D900A7B2F7 /* Tick_red.png in Resources */,
-				B158C3E7207E5CE000A7B2F7 /* Simulator Screen Shot - iPhone X - 2018-04-11 at 20.39.50.png in Resources */,
 				B158C3B2207CE82500A7B2F7 /* LOccitane_Logo.jpg in Resources */,
 				B1C3DC28207C9AE300B6F0D4 /* Main.storyboard in Resources */,
 				B158C3C8207D269400A7B2F7 /* Back-Arrow.png in Resources */,
